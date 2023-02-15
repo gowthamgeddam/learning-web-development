@@ -47,3 +47,13 @@
 - `<img>` &larr; image element
     - it doesn't have closing tag
     - attributes: `src` for source of the image, `alt` an alternative text to show when the image can't be loaded.
+
+## Few other HTML Tags
+- `<header>` - specifies header for a document or section that has large texts and headings
+- `<nav>` - defines navigational links i.e used with list items.
+- `<section>` - defines a section in adocument
+- `<article>` - defines an article
+- `<aside>` - defines content aside from page content (like sidebars)
+- `<footer>` - defines footer for a document, that is found in the bottom of the page.
+- `<main>` - specifies the main content of the document
+- `<figure>` - specifies self-contained content like diagrams, photos and code etc.
