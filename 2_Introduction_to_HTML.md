@@ -57,3 +57,27 @@
 - `<footer>` - defines footer for a document, that is found in the bottom of the page.
 - `<main>` - specifies the main content of the document
 - `<figure>` - specifies self-contained content like diagrams, photos and code etc.
+
+
+# Creating a simple web page
+- Create a new folder
+- first html document will be named `index.html`
+- `.html` extension is very important.
+    ```
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Hello World</title>
+    </head>
+    <body>
+        <header>
+            <h1>Hello! Welcome to the world of HTML</h1>
+        </header>
+        <main>
+            <p>
+                'tis a paragraph.
+            </p>
+        </main>
+    </body>
+    </html>
+    ```
