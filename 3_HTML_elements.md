@@ -24,3 +24,24 @@
 
 ## Navigating Web Pages
 - `Hypertext` - is created using the anchor tag in combination with the href="URL" attribute , where url is the address of another web page.
+- `Navigation` - uses hyperlinking to allow users to navigate between webpages.
+- `<nav>` tag defines a set of navigation links.
+- often used with `<ul>` unordered list.
+- Ex:
+    ```
+    <nav>
+        <ul>
+            <li> <a href="index.html"> Home </a> </li>
+            <li> <a href="work.html"> Work </a> </li>
+            <li> <a href="contact_me.html"> Contact </a> </li>
+        </ul>
+    </nav>
+    ```
+
+## Comments in HTML
+- A descriptive text added to the code but is not rendered in browser
+- Helps developer understand the code
+- to use comment in html, we use the following notation
+    ```
+        <!--- Comment here --->
+    ```
