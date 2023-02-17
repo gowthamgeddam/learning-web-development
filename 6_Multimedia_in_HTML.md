@@ -16,3 +16,22 @@ Eg:
 <img src="./img/love_a_lot_more.png" alt="nick vujicic says 'love each other a lot more'">
 ```
 ![nick vujicic says "Love each other a lot more"](./img/love_a_lot_more.png)
+
+## Audio
+- We use `<audio>` tag to embed audio file in a html page.
+### Common Audio attributes
+|Attribute|Details|
+|:---:|:---:|
+|`controls`|specifies audio controls(play/pause etc)|
+|`autoplay`|specifies that audio will play as soon as it is ready|
+|`loop`|specifies if the audio will play in loop|
+|`muted`|specifies that the audio output be muted|
+|`src`|specifies the url of the audio file|
+
+> **NOTE:** It is very important that you add atleast `src` and `controls` for the element to load correctly.
+
+- Ex:
+    ```html
+    <audio src='./audio/Virtual-Piano-3_52_12%20PM.wav' controls>
+    ```
+<audio src='./audio/Virtual-Piano-3_52_12%20PM.wav' controls>
