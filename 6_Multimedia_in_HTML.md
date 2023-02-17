@@ -1,6 +1,7 @@
 # Multimedia in HTML
 
 ## Images
+---
 - We use `<img>` to embed simple image in our webpage.
 - Images improves the design and layout of the website.
 ### Image Attributes
@@ -18,6 +19,7 @@ Eg:
 ![nick vujicic says "Love each other a lot more"](./img/love_a_lot_more.png)
 
 ## Audio
+---
 - We use `<audio>` tag to embed audio file in a html page.
 ### Common Audio attributes
 |Attribute|Details|
@@ -34,4 +36,16 @@ Eg:
     ```html
     <audio src='./audio/Virtual-Piano-3_52_12%20PM.wav' controls>
     ```
-<audio src='./audio/Virtual-Piano-3_52_12%20PM.wav' controls>
+    <audio src='./audio/Virtual-Piano-3_52_12%20PM.wav' controls>
+
+## Video
+
+In html, `<video>` tag is the standard way of embedding video.
+- It's important to add `src` and `controls` attribute.
+- It's always good to include `height` and `width` attributes.
+ex:
+```html
+<video src="./video/SampleVideo_360x240_1mb.mp4" controls>
+```
+<video src="./video/SampleVideo_360x240_1mb.mp4" controls></video>
+- if you don't add `controls`, it won't load correctly
